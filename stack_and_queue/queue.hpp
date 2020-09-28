@@ -3,6 +3,7 @@
 
 #include "link_list.hpp"
 
+
 typedef struct Queue {
     void PushBack(int);
     void PopFront();

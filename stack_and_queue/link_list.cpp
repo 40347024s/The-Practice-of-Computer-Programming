@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include "link_list.hpp"
 
+
 void Print(const Node *head, char c) {
     if (c=='s') {
         printf("Current stack: ");

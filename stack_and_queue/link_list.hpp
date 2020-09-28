@@ -6,6 +6,7 @@ typedef struct Node{
     Node *next;
 }Node;
 
+
 void Print(const Node *, char t);
 Node *AddNode2Head(Node **, int);
 Node *AddNode2Last(Node **, int);
