@@ -55,7 +55,7 @@ int main() {
         s.Print();
     }
     printf("=========== My Queue =============\n");
-    Queue q = {.tail_=NULL, .head_=NULL, .size_=0};
+    Queue q = {.head_=NULL, .tail_=NULL, .size_=0};
     for (int i = 0; i < 10; i++)
     {
         q.PushBack(i*2);
@@ -69,5 +69,5 @@ int main() {
         printf("After pop_front %d, size is %d\ncurrent queue: ", top, q.size_);
         q.Print();
     }
-    return 0;
+    return 1;
 }
